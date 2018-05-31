@@ -1,0 +1,693 @@
+*{  margin:0px;
+   padding:0px;
+}
+
+body
+  {
+       font-size:medium;
+       font-family: Verdana, Helvetica, Arial, sans-serif;
+       background: whitesmoke;
+       color: black;
+  }
+
+#menu ul
+{   text-decoration:none;
+     list-style:none;
+      align-content: center;
+      z-index: 1000;
+}
+#menu ul li
+{  text-align:center;
+    position:relative;
+}
+#menu ul li a
+{ text-decoration:none;
+ color:white;
+display:block;
+font-size: 15px;
+}
+#menu ul li a:hover
+{ color: #5bc199;
+}
+
+#menu ul ul
+{ display:none;
+}
+#menu ul li:hover > ul
+{ display:block;
+ position:absolute;
+border:0px;
+color:white;
+background: black;
+     width:150px;
+    line-height: 25px;
+  margin-left: -1px;
+}
+
+li.left
+{ float:left;
+    width: 40px;
+line-height:5px;
+}
+li.right
+{
+float:right;
+ width:70px;
+    height:40px;
+    line-height:40px;
+  margin-top: -2px;
+  align-content: right;
+}
+
+.search input[type=text] {
+    width: 50%;
+  margin: 3px 0px 0px 250px;
+  height: 35px;
+  line-height: 35px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../images/search-icon-clip-art-at-clker-com-vector-clip-art-online-royalty-643l5L-clipart.png');
+    background-size: 20px 20px;
+    background-position: 8px 8px;
+    background-repeat: no-repeat;
+    padding: 1px 20px 00px 40px;
+
+}
+
+ .topmovies
+{
+  font-style:italic;
+  font-family:         Georgia, "Times New Roman", Times, serif;
+  color:               black;
+  background-color:     gainsboro;
+  padding:             5px;
+  margin-top: 2px;
+  height: 434px;
+  width: 20%;
+}
+
+
+.topmovies li
+{
+  margin:  10px 20px 0px 30px;
+  font-size: 18px;
+
+}
+
+.topmovies h5
+{ text-align: center;
+  color:red;
+  font-size: 25px;
+}
+.book
+{
+  float: right;
+  width: 80%;
+  background-color: white;
+  margin-top: 2px;
+
+}
+
+.book ul li figure img
+{
+  height: 100px;
+  width: 330px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.book ul li
+{
+  float: right;
+  margin: 2px;
+  list-style:none;
+}
+
+.book ul
+{
+  text-decoration: none;
+  margin-right:20px;
+}
+
+.book1 figcaption
+{
+   color: white;
+  background-color:#c33;
+  text-align: center;
+  font-size: 15px;
+  height: 30px;
+  line-height: 30px;
+  width: 309.5px;
+  margin: 0px 0px 0px 10px;
+}
+
+.book1 figcaption a
+{ color: white;
+  display: block;
+  text-decoration: none;
+}
+.book1 figcaption a:hover
+{
+  color: #5bc199;
+}
+.fig
+{
+  background-color: whitesmoke;
+  width: 91.3%;
+  margin-left: 10px;
+}
+.fig fieldset a
+{
+  margin-left: 5px;
+ font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+.fig fieldset a:hover
+{
+  text-decoration: underline;
+  color: #5bc199;
+}
+.fig fieldset
+{
+  margin-left: 5px;
+  width: 200px;
+  border: white;
+}
+.fig fieldset p
+{
+  margin: 10px 5px 5px 5px;
+ font-size: 13px;
+  color: black;
+}
+.fig fieldset button
+{
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius:15px;
+  width:60px;
+  border:none;
+  margin-bottom: 2px;
+  margin-right: 2px;
+  text-align: center;
+  height: 25px;
+  line-height: 5px;
+  background-color: white
+}
+
+
+
+.foot footer {
+  background-color: rgba(28,28,45,.65);
+ text-align: center;
+  float: left;
+}
+.foot footer p
+{
+  font-size: 12px;
+  margin: 5px 50px 0px 50px;
+  font-family:  Georgia, "Times New Roman", Times, serif;
+}
+.foot footer  a
+{
+  text-decoration: none;
+  color: white;
+  font-family:  Georgia, "Times New Roman", Times, serif;
+  padding-left: 10px;
+  float: left; border-right: 1px solid ;
+  padding-right: 5px;
+
+
+}
+.foot a:hover
+{
+  color: #5bc199;
+}
+
+.header1
+{
+   height:40px;
+   line height:40px;
+   align-content:right;
+   background-color:rgba(28,28,45,.65);
+   margin: -25px 0px 0px 0px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+
+}
+
+.nav
+{
+  height:42px;
+   line height:42px;
+   align-content:right;
+  background-color:rgba(28,28,45,.65);
+  border: 1px solid black;
+  margin: 15px 0px 0px 0px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+/*slide show*/
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;margin:0}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container
+{
+  max-width: 1000px;
+  position: relative;
+  margin: 60px 2px 0px 1px;
+ }
+
+
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: -5px 2px 25px 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+div#tableContainer {
+	display: table;
+   margin-top: 10px;
+  background-color: whitesmoke;
+  width: 100%;
+
+
+}
+
+div#tableRow {
+	display: table-row;
+  margin-top: 10px;
+
+}
+.offers,.mobileapp,.giftcard
+{
+    display: table-cell;
+  margin-top: 50px;
+  padding:          15px;
+  vertical-align: top;
+    font-size: 12px;
+  color: grey;
+  text-align: center;
+}
+.offers h1,.mobileapp h1,.giftcard h1
+{
+  color:gray;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 5px;
+  text-decoration: underline red;
+}
+.offers img,.mobileapp img
+{
+  height: 80px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.giftcard img
+{ margin-top: 10px;
+  height: 50px;
+  margin-bottom: 45px;
+}
+.giftcard button,.offers button,.mobileapp button
+{
+  margin-top: 15px;
+  border: 1px solid rgba(28,28,45,.65);
+  background-color: white;
+  color: grey;
+  padding: 15px;
+  font-size: 15px;
+}
+.giftcard button:hover,.offers button:hover,.mobileapp button:hover
+{
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+
+.blog
+{ margin: 15px 0px 0px 0px;
+}
+.blog h2
+{
+  margin: 40px 0px 0px 30px;
+  font-size: 50px;
+}
+.blog h1
+{
+  text-align: center;
+  color:rgba(28,28,45,.65);
+  border-bottom: 2px solid red;
+  width: 20%;
+  margin-left: 500px;
+}
+.blog p
+{
+  margin: 10px 0px 20px 20px;
+  font-size: 16px;
+  color: gray;
+  float: left;
+}
+.blog img
+{
+  float: left;
+  margin-right: 10px;
+  margin-left: 50px;
+}
+.blog button
+{
+  margin: 150px 0px 0px -950px;
+  border: none;
+  background-color: #c33;
+  font-size: 18px;
+  color: white;
+  padding: 15px;
+  cursor: pointer;
+}
+
+
+
+.container{
+    position: relative;
+    width: 100%;
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+
+
+.align3
+{ background-color: grey;
+  margin: 3px;
+  color: white;
+  font-size: 12px;
+  padding: 10px 25px;
+  background-image: url('images/play-btn.png');
+    background-size: 20px 20px;
+    background-position: 5px 8px;
+    background-repeat: no-repeat;
+
+}
+
+.align1
+{ background-color: gray;
+  margin: 3px ;
+  color: white;
+  font-size: 12px;
+  padding: 10px 25px;
+  background-image: url('images/icon-info-grey.png');
+    background-size: 20px 20px;
+    background-position: 5px 8px;
+    background-repeat: no-repeat;
+
+}
+
+.align2
+{ background-color: grey;
+  margin: 3px ;
+  color: white;
+  font-size: 12px;
+  padding: 10px 25px;
+  background-image: url('images/7caK46poi.png');
+    background-size: 20px 20px;
+    background-position: 5px 8px;
+    background-repeat: no-repeat;
+
+}
+
+.align1 a, .align2 a, .align3 a
+{
+  text-decoration: none;
+  color: white;
+}
+.align1 a:hover, .align2 a:hover, .align3 a:hover
+{
+  color: #5bc199;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.button1 {
+    background-color: none;
+    color: white;
+  float: right;
+  height: 35;
+  line-height:35px;
+    border: none;
+    cursor: pointer;
+   font-size:medium;
+      font-family: Verdana, Helvetica, Arial, sans-serif;
+    width: 100%;
+  margin-right: 10px;
+}
+.button1:hover
+{
+  color:#5bc199;
+}
+.button2 {
+    background-color: #c33;
+    color: white;
+    padding: 11px 18px;
+    margin: 0px 0px 0px 0px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button2:hover {
+    opacity: 0.8;
+  color: black;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 5px 11px;
+}
+.cancelbtn a
+{
+  text-decoration: none;
+  color: red;
+
+}
+.cancelbtn a:hover
+{
+  color:#5bc199 ;
+}
+
+/* Center the image and position the close button */
+.imgcontainer{
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container1 {
+    padding: 15px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 1px;
+
+}
+span.psw a
+{
+  text-decoration: none;
+  color:#FF3333 ;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 110%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 0px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+.rbc , .sn , .cc 
+{
+ display: table-cell;
+  vertical-align: top;
+    font-size: 15px;
+  text-align: center;
+  border-right: 1px solid black;
+  background-color: gray;
+}
+.rbc button,.sn button, .cc button
+{
+  color:white;
+  background-color: gray;
+  border: none;
+
+  font-size: 15px;
+  text-align: center;
+padding: 10px;
+}
+.rbc img , .sn img , .cc img
+{
+  width: 100px;
+  margin-top: 5px;
+}
+.rbc button:hover,.sn button:hover, .cc button:hover
+{
+  color: #5bc199 ;
+  cursor: pointer;
+}
+#menu ul button
+{
+  float: right;
+  margin-top: 9px;
+  margin-right:5px;
+  border: none;
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+}
+#menu ul button:hover
+{
+  color:
+}
+
+
+
+.

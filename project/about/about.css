@@ -1,0 +1,76 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  text-align: center;
+  font-family: arial;
+  margin: 20px 15px 0px 20px;
+  float: left;
+}
+.header2 h1
+{
+    margin: 100px 0px 0px 0px;
+    text-align: center;
+    color: black;
+  text-decoration: underline;
+  text-decoration-color: grey;
+}
+.header1
+{
+   margin: -100px 0px 0px 0px;
+}
+.nav
+{
+    margin: -60px 0px 0px 0px;
+}
+
+.card container {
+  padding: 0 16px;
+}
+
+.card container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.card title {
+  color: grey;
+  font-size: 18px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.card p button:hover, a:hover {
+  opacity: 0.7;
+}
+.para p
+{ 
+  margin:500px 0px 15px 0px;
+  padding: 30px;
+  background-color: gainsboro;
+  border: 1px solid gray;
+  text-align: center;
+  width: 100%;
+ 
+}
+.foot
+{
+  float: left;
+}

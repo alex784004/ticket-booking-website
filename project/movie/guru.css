@@ -1,0 +1,68 @@
+*
+{
+margin:0px;
+padding;0px;
+}
+body
+{
+    background-color: whitesmoke;
+}
+
+.guru video
+{
+  width:100%;
+ margin-bottom: 25px;
+    margin-top: 25px;
+  
+
+}
+.guru img
+{ float: left;
+  width: 100%;
+  height: 70%;
+  margin-top: 57px;
+  margin-bottom: 2px;
+  border-bottom: 5px solid #5bc199;
+}
+.guru p
+{
+  margin: 10px;
+  padding: 10px;
+    background-color:white ;
+  font-size:15px;
+}
+
+div.gallery {
+    margin: -50px 6px 0px 5px;
+    float: left;
+    width: 180px;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 30%;
+   border-bottom: 5px solid #5bc199;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+div.desc {
+    padding: 2px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.lc img
+{
+    margin-top:60px;
+}
+.guru h3, .lc h3
+{
+    margin-left: 20px; 
+    border-bottom: 2px solid red;
+    width: 9%;
+    margin-bottom: 2px;
+    margin-top: 5px;
+    
+}
+
+
